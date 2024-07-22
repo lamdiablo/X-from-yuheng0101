@@ -23,7 +23,7 @@
 # 去广告
 ^https?:\/\/qqcapi.*.com\/api\/(promo\/popup|task_ad\/list|operation\/ads|investment|ad\/ad_position_config) url reject-200
 # 重写
-^https?:\/\/qqcapi.*.com\/api\/(v2\/bootstrap|module\/list|user\/read|bottom_nav|navs\/top|rich_new\/index|user\/privilege|v3\/shortvideo\/view\/\d+) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/qqc.js
+^https?:\/\/qqcapi.*.com\/api\/(v2\/bootstrap|module\/list|user\/read|bottom_nav|navs\/top|rich_new\/index|user\/privilege|v3\/shortvideo\/view\/\d+) url script-response-body https://raw.githubusercontent.com/lamdiablo/X-from-yuheng0101/main/Scripts/qqc.js
 
 hostname = qqcapi.*.com
 
