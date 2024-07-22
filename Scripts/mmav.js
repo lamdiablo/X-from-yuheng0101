@@ -24,8 +24,8 @@
 
 hostname=mmnew.tlxxw.cc,mmnew.uvi57ypa.com,www.2c6n8.com,www.7bfbb776da4a.com,www.3b43e2bfca59.com,www.2c3q9.com,www.bc53k.com
 
-^http[s]?://.*(tlxxw|uvi57ypa).+/api/user/(loginByUsername|register) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mmav.js
-^http[s]?://www.(2c6n8|7bfbb776da4a|3b43e2bfca59|2c3q9|bc53k).com url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mmav.js
+^http[s]?://.*(tlxxw|uvi57ypa).+/api/user/(loginByUsername|register) url script-response-body https://github.com/lamdiablo/X-from-yuheng0101/raw/main/Scripts/mmav.js
+^http[s]?://www.(2c6n8|7bfbb776da4a|3b43e2bfca59|2c3q9|bc53k).com url script-response-body https://github.com/lamdiablo/X-from-yuheng0101/raw/main/Scripts/mmav.js
 
 ******************************************/
 const $ = new Env("猫咪AV");
